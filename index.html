@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tarif PNBP - BARANTIN</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📋 Daftar Tarif PNBP Karantina Tumbuhan</h1>
+    <p>BKHIT Kepulauan Riau | Berdasarkan PMK No. 27 Tahun 2024</p>
+  </header>
+
+  <main>
+    <input type="text" id="searchInput" placeholder="🔍 Cari layanan atau kategori..." onkeyup="searchTable()">
+    
+    <table id="tarifTable">
+      <thead>
+        <tr>
+          <th>Jenis Layanan</th>
+          <th>Sub Kategori</th>
+          <th>Unit</th>
+          <th>Tarif (Rp)</th>
+          <th>Jenis Pelayanan</th>
+          <th>Kategori</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Pohon (termasuk stumb)</td>
+          <td>Impor</td>
+          <td>Per batang</td>
+          <td>200,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Pohon (termasuk stumb)</td>
+          <td>Ekspor/ Antar area</td>
+          <td>Per batang</td>
+          <td>100,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td><i>Planlet, ex-plant</i></td>
+          <td>Impor</td>
+          <td>Per batang</td>
+          <td>25,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td><i>Planlet, ex-plant</i></td>
+          <td>Ekspor/ Antar area</td>
+          <td>Per batang</td>
+          <td>10,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td><i>Stek/Cutting </i></td>
+          <td>Impor</td>
+          <td>Per batang</td>
+          <td>10,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td><i>Stek/Cutting </i></td>
+          <td>Ekspor/ Antar area</td>
+          <td>Per batang</td>
+          <td>5,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Umbi, Akar rimpang, Daun </td>
+          <td>Impor</td>
+          <td>Per kilogram</td>
+          <td>50,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Umbi, Akar rimpang, Daun </td>
+          <td>Ekspor/ Antar area</td>
+          <td>Per kilogram</td>
+          <td>25,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Padi-padian </td>
+          <td>Impor</td>
+          <td>Per kilogram</td>
+          <td>225,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Padi-padian </td>
+          <td>Ekspor/ Antar area</td>
+          <td>Per kilogram</td>
+          <td>50,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Palawija</td>
+          <td>Impor</td>
+          <td>Per kilogram</td>
+          <td>180,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Palawija</td>
+          <td>Ekspor/Antar Area</td>
+          <td>Per kilogram</td>
+          <td>40,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Sayur sayuran </td>
+          <td>Impor</td>
+          <td>Per kilogram</td>
+          <td>270,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Sayur sayuran </td>
+          <td>Ekspor/Antar Area</td>
+          <td>Per kilogram</td>
+          <td>60,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Tanaman Hias Lanskap</td>
+          <td>Impor</td>
+          <td>Per kilogram</td>
+          <td>360,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Tanaman Hias Lanskap</td>
+          <td>Ekspor/Antar Area</td>
+          <td>Per kilogram</td>
+          <td>80,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Rumput-rumputan (non 
+lanskap) dan Tanaman Penutup Tanah </td>
+          <td>Impor</td>
+          <td>Per kilogram</td>
+          <td>200,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Rumput-rumputan (non 
+lanskap) dan Tanaman Penutup Tanah </td>
+          <td>Ekspor/Antar Area</td>
+          <td>Per kilogram</td>
+          <td>50,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Buah-buahan</td>
+          <td>Impor</td>
+          <td>Per kilogram</td>
+          <td>500,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Buah-buahan</td>
+          <td>Ekspor/Antar Area</td>
+          <td>Per kilogram</td>
+          <td>100,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Tumbuhan Hutan</td>
+          <td>Impor</td>
+          <td>Per kilogram</td>
+          <td>450,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Tumbuhan Hutan</td>
+          <td>Ekspor/Antar Area</td>
+          <td>Per kilogram</td>
+          <td>100,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Tanaman Perkebunan (Termasuk Kecambah yang Bakal Akar dan Daunnya belum bisa ditentukan) </td>
+          <td>Impor</td>
+          <td>Per biji</td>
+          <td>25,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Tanaman Perkebunan (Termasuk Kecambah yang Bakal Akar dan Daunnya belum bisa ditentukan) </td>
+          <td>Ekspor/Antar Area</td>
+          <td>Per biji</td>
+          <td>10,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Tanaman Perkebunan Semusim</td>
+          <td>Impor</td>
+          <td>Per kilogram</td>
+          <td>250,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Tanaman Perkebunan Semusim  </td>
+          <td>Ekspor/Antar Area</td>
+          <td>Per kilogram</td>
+          <td>100,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Sebuk Sari</td>
+          <td>Impor</td>
+          <td>Per gram</td>
+          <td>500,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Sebuk Sari</td>
+          <td>Ekspor/Antar Area</td>
+          <td>Per gram</td>
+          <td>150,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+        <tr>
+          <td>Bentuk yang Dikemas dalam 
+Botol Erlemeyer, Cawan petri, dan 
+Kemasan sejenis </td>
+          <td>Impor</td>
+          <td>Per kemasan</td>
+          <td>500,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+	<tr>
+          <td>Bentuk yang Dikemas dalam 
+Botol Erlemeyer, Cawan petri, dan 
+Kemasan sejenis </td>
+          <td>Ekspor/ Antar Area</td>
+          <td>Per kemasan</td>
+          <td>250,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+	<tr>
+          <td>Hasil Tumbuhan Bukan Benih Berbentuk Batang (termasuk 
+Bunga Potong) </td>
+          <td>Impor</td>
+          <td>Per batang</td>
+          <td>100,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+	<tr>
+          <td>Hasil Tumbuhan Bukan Benih Berbentuk Batang (termasuk 
+Bunga Potong) </td>
+          <td>Ekspor/ Antar Area</td>
+          <td>Per batang</td>
+          <td>50,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+	<tr>
+          <td>Hasil Tumbuhan Bukan Benih Berbentuk Buah (Buah Segar)</td>
+          <td>Impor</td>
+          <td>Per kilogram</td>
+          <td>10,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+	<tr>
+          <td>Hasil Tumbuhan Bukan Benih Berbentuk Buah (Buah Segar)</td>
+          <td>Ekspor/ Antar Area</td>
+          <td>Per kilogram</td>
+          <td>5,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+	<tr>
+          <td>Hasil Tumbuhan Bukan Benih Berbentuk Biji</td>
+          <td>Impor</td>
+          <td>Per ton</td>
+          <td>1.000,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>	
+	<tr>
+          <td>Hasil Tumbuhan Bukan Benih Berbentuk Biji</td>
+          <td>Ekspor</td>
+          <td>Per ton</td>
+          <td>500,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>	
+	<tr>
+          <td>Hasil Tumbuhan Bukan Benih Berbentuk Biji</td>
+          <td>Antar Area</td>
+          <td>Per ton</td>
+          <td>250,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+	<tr>
+          <td>Hasil Tumbuhan Bukan Benih Berbentuk Daun, Bunga</td>
+          <td>Impor</td>
+          <td>Per kilogram</td>
+          <td>10,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>	
+	<tr>
+          <td>Hasil Tumbuhan Bukan Benih Berbentuk Daun, Bunga</td>
+          <td>Ekspor</td>
+          <td>Per kilogram</td>
+          <td>5,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>	
+	<tr>
+          <td>Hasil Tumbuhan Bukan Benih Berbentuk Daun, Bunga</td>
+          <td>Antar Area</td>
+          <td>Per kilogram</td>
+          <td>2,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>	
+	<tr>
+          <td>Hasil Tumbuhan Bukan Benih Berbentuk Umbi, Akar, Rimpang</td>
+          <td>Impor</td>
+          <td>Per kilogram</td>
+          <td>5,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>	
+	<tr>
+          <td>Hasil Tumbuhan Bukan Benih Berbentuk Umbi, Akar, Rimpang</td>
+          <td>Ekspor</td>
+          <td>Per kilogram</td>
+          <td>3,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+	<tr>
+          <td>Hasil Tumbuhan Bukan Benih Berbentuk Umbi, Akar, Rimpang</td>
+          <td>Antar Area</td>
+          <td>Per kilogram</td>
+          <td>2,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>	
+	<tr>
+          <td>Produk tumbuhan yang tidak atau telah diolah Berbentuk batangan (termasuk kayu) </td>
+          <td>Impor</td>
+          <td>Per kilogram</td>
+          <td>10,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>	
+	<tr>
+          <td>Produk tumbuhan yang tidak atau telah diolah Berbentuk batangan (termasuk kayu) </td>
+          <td>Ekspor/ Antar area</td>
+          <td>Per kilogram</td>
+          <td>5,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>	
+	<tr>
+          <td>Produk Tumbuhan yang Tidak atau Telah Diolah bentuk Kulit, Daun, Bunga Kering, Buah</td>
+          <td>Impor</td>
+          <td>Per kilogram</td>
+          <td>5,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>	
+	<tr>
+          <td>Produk Tumbuhan yang Tidak atau Telah Diolah bentuk Kulit, Daun, Bunga Kering, Buah</td>
+          <td>Ekspor/ Antar area</td>
+          <td>Per kilogram</td>
+          <td>2,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>		
+	<tr>
+          <td>Produk Tumbuhan yang Tidak atau Telah Diolah bentuk Biji, Butiran, Tepung, Bubuk, Serbuk, Serat, Pelet, Lempengan/cake </td>
+          <td>Impor</td>
+          <td>Per ton</td>
+          <td>1.000,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+	<tr>
+          <td>Produk Tumbuhan yang Tidak atau Telah Diolah bentuk Biji, Butiran, Tepung, Bubuk, Serbuk, Serat, Pelet, Lempengan/cake </td>
+          <td>Ekspor</td>
+          <td>Per ton</td>
+          <td>500,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+	<tr>
+          <td>Produk Tumbuhan yang Tidak atau Telah Diolah bentuk Biji, Butiran, Tepung, Bubuk, Serbuk, Serat, Pelet, Lempengan/cake </td>
+          <td>Antar Area</td>
+          <td>Per ton</td>
+          <td>250,00</td>
+          <td>Pelayanan Pemeriksaan</td>
+          <td>Tumbuhan dan Benih</td>
+        </tr>
+
+
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>© 2025 Badan Karantina Indonesia</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
